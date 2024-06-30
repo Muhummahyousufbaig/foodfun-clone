@@ -1,0 +1,712 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(font/roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'playfair display';
+    src: url(font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+/* header sections  */
+
+.section1 {
+    background-image: url(img/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 930px;
+    padding: 20px 0px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 92px;
+    width: 100%;
+    margin: 0px 0px 0px;
+    border-radius: 5px;
+
+}
+
+.navlogo {
+    padding: 0px 15px 0px 15px;
+    margin: 10px 0px;
+}
+
+.navlink {
+    width: 950px;
+    height: 52px;
+    text-align: right;
+    padding: 15px 0px 0px;
+}
+
+.navlink>a {
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #131230;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'roboto' sans-serif;
+}
+
+.icons {
+    background-color: rgb(255, 182, 6);
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: 50px;
+    height: 44px;
+    margin: 0px 10px 0px 10px;
+}
+
+.sec1text {
+    padding: 380px 0px 280px;
+}
+
+.sec1text>h6 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+}
+
+.sec1text>h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+
+}
+
+#hcolor {
+    color: rgb(255, 182, 6);
+}
+
+/* about sections  */
+
+.section2 {
+    margin: 150px 0px 0px;
+}
+
+.sec2left>img {
+    height: 580px;
+    width: 580px;
+    object-fit: contain;
+}
+
+#sec2h {
+    color: rgb(255, 182, 6);
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-family: 'playfair display', serif;
+}
+
+.sec2right>h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #131230;
+    text-transform: lowercase;
+    font-family: 'playfair display', serif;
+
+}
+
+.sec2right>p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(119, 119, 119);
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.sec2right>input {
+    height: 60px;
+    width: 40%;
+    color: #121131;
+    background-color: rgb(255, 182, 6);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.sec2right>input:hover {
+    border: 5px solid rgb(255, 182, 6);
+    background-color: transparent;
+    transition: 0.5s ease-out;
+}
+
+/* price sections  */
+
+.section3 {
+    background-image: url(img/food-bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: 100px 0px;
+
+}
+
+.sec3textbox {
+    width: 100%;
+}
+
+.text1 {
+    margin: 110px 10px 0px;
+}
+
+.text1>h1 {
+    font-weight: bold;
+    font-size: 38px;
+    font-family: 'playfair display', serif;
+}
+
+.text1>p {
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    padding: 10px 0px 10px;
+
+}
+
+#sec3h {
+    color: rgb(255, 182, 6);
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'playfair display', serif;
+    text-transform: lowercase;
+}
+
+.card1 {
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(249, 249, 255);
+}
+
+.card1>h4 {
+    height: 100%;
+    font-family: 'playfair display', serif;
+    font-size: 20px;
+}
+
+.text {
+    margin: 10px 0px;
+}
+
+.card1>p {
+    margin: 30px 0px;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+}
+
+#price {
+    color: rgb(255, 182, 6);
+    font-size: 20px;
+    font-family: 'roboto' sans-serif;
+}
+
+.card1:hover {
+    background-color: rgb(254, 193, 45);
+    transition: ease-in-out 0.3s;
+}
+
+#price:hover {
+    transition: ease-in-out 0.3s;
+    color: #121131;
+}
+
+/* Natural ingredients sections  */
+
+.section4 {
+    background-image: url(img/reservation-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0px;
+}
+
+.sec4box>h1 {
+    color: #ffffff;
+    margin: 20px 0px;
+    font-size: 45px;
+}
+
+.sec4box>h6 {
+    font-family: 'roboto' sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-style: italic;
+}
+
+.sec4box>input {
+    height: 60px;
+    width: 200px;
+    color: #121131;
+    background-color: rgb(255, 182, 6);
+    font-family: 'roboto' sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+}
+
+.sec4box>input:hover {
+    border: 5px solid rgb(255, 182, 6);
+    background-color: transparent;
+    transition: 0.5s ease-out;
+    color: rgb(255, 182, 6);
+}
+
+/* special deshes sections  */
+
+.section5 {
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+#sec5h {
+    color: rgb(255, 182, 6);
+}
+
+.letter>h1 {
+    font-size: 40px;
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+    color: #121131;
+}
+
+.letter>p {
+    font-family: 'roboto' sans-serif;
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+}
+
+.sec5left>h1 {
+    font-size: 50px;
+    color: #000000;
+    font-family: 'playfair display', serif;
+
+}
+
+.sec5right1>h1 {
+    font-size: 50px;
+    color: #000000;
+    font-family: 'playfair display', serif;
+
+}
+
+.move>h2 {
+    font-size: 35px;
+    color: #000000;
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.move>h2 {
+    font-size: 35px;
+    color: #000000;
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#food {
+    font-size: 35px;
+    color: rgb(255, 182, 6);
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#pricesec5 {
+    color: rgb(255, 182, 6);
+    font-size: 35px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 600;
+}
+
+.move>p {
+    margin: 30px 0px;
+    font-family: 'roboto' sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+}
+
+.move>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    margin: 20px 0px 0px;
+    font-size: 15px;
+}
+
+#arrowright:hover {
+    padding: 0px 10px 0px 10px;
+    color: rgb(255, 182, 6);
+    transition: ease-in-out 0.7s;
+}
+
+.move {
+    margin: 0px 0px 0px 70px;
+}
+
+/* Customer says sections  */
+
+.section6 {
+    background: linear-gradient(rgba(5, 10, 17, 0.7),
+            rgba(10, 10, 17, 0.7)),
+        url(img/testimonial-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0px 430px;
+}
+
+.sec6textbox>h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0px 0px 20px;
+    font-family: 'playfair display', serif;
+    text-align: center;
+
+}
+
+.sec6textbox>p {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-family: 'roboto' sans-serif;
+    text-align: center;
+}
+
+#sec6h {
+    color: rgb(255, 182, 6);
+    font-family: 'roboto' sans-serif;
+
+}
+
+/* food update sections  */
+
+.section7 {
+    padding: 50px 0px;
+    background-color: #ffffff;
+}
+
+#sec7h {
+    color: rgb(255, 182, 6);
+}
+
+.sec7text>h1 {
+    font-size: 40px;
+    font-family: 'playfair display', serif;
+    margin: 0px 0px 8px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sec7text>p {
+    font-family: 'roboto' sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-transform: capitalize;
+    margin: 0px 0px 20px;
+
+}
+
+.card2 {
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(249, 249, 255);
+}
+
+.boxtext>h4 {
+    height: 100%;
+    font-family: 'playfair display', serif;
+    font-size: 20px;
+}
+
+.boxtext>p {
+    margin: 30px 0px;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+}
+
+.boxtext>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    margin: 20px 0px 0px;
+    font-size: 15px;
+}
+
+.textbox {
+    margin: 10px 0px;
+}
+
+.card2:hover {
+    box-shadow: 0 4px 8px #a7a3a3;
+    background-color: #ffffff;
+}
+
+/* book table sections  */
+
+.section8 {
+    background: linear-gradient(rgba(5, 10, 17, 0.7),
+            rgba(10, 10, 17, 0.7)),
+        url(img/table-bg.jpg) center no-repeat;
+    padding: 0px 0px 0px;
+}
+
+form {
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.date {
+    height: 50px;
+    width: 270px;
+    background-image: url(img/calendar.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 0px 0px 0px 30px !important;
+    margin: 20px 10px;
+    border: none;
+    outline: none;
+
+}
+
+.time {
+    height: 50px;
+    width: 270px;
+    background-image: url(img/time2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 0px 0px 0px 30px !important;
+    margin: 20px 10px;
+
+
+    border: none;
+    outline: none;
+}
+
+.user {
+    height: 50px;
+    width: 270px;
+    background-image: url(img/user.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 0px 0px 0px 30px !important;
+    margin: 20px 10px;
+    border: none;
+    outline: none;
+}
+
+.button2 {
+    height: 50px;
+    width: 150px;
+    color: #121131;
+    background-color: rgb(255, 182, 6);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    margin: 10px 25px 10px;
+
+
+}
+
+.button2:hover {
+    border: 5px solid rgb(255, 182, 6);
+    background-color: transparent;
+    transition: 0.5s ease-out;
+    color: rgb(255, 182, 6);
+
+}
+
+#sec8h {
+    color: rgb(255, 182, 6);
+}
+
+.sec8text>h1 {
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0px 0px;
+
+}
+
+.sec8text>p {
+    font-family: 'roboto' sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* footer sections  */
+
+.section9 {
+    background-color: rgb(19, 18, 48);
+    padding: 130px 0px;
+}
+
+.sec9box1>img {
+    margin: 10px 0px;
+
+}
+
+.sec9box1>p {
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    font-weight: lighter;
+    font-family: 'roboto' sans-serif;
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+.sec9box2>h4 {
+    font-family: 'playfair display', serif;
+    font-size: 35px;
+    color: rgb(255, 182, 6);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px 0px;
+
+}
+
+.sec9box3>h4 {
+    font-family: 'playfair display', serif;
+    font-size: 35px;
+    color: rgb(255, 182, 6);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px 0px;
+
+}
+
+.sec9box3>p {
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    font-weight: lighter;
+    font-family: 'roboto' sans-serif;
+    padding: 10px;
+    margin: 35px 0px;
+}
+
+.sec9text1 {
+    margin: 30px 0px 0px;
+}
+
+#itext {
+    margin: 0px 0px 10px;
+
+}
+
+#itext>p {
+    color: rgb(119, 119, 119);
+    padding: 5px 15px 0px;
+    font-family: 'roboto' sans-serif;
+    font-size: 15px;
+}
+
+.sec9text1>i {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+
+.sec9text2>i {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+
+.sec9text3>i {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+
+.section10 {
+    background-color: rgb(13, 13, 39);
+    padding: 20px 10px;
+}
+
+.sec10link {
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+
+}
+
+.sec10text1>p {
+    color: #ffffffff;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+}
+
+.sec10text2>p {
+    color: #ffffffff;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.sec10icons {
+    color: #ffffffff;
+    font-size: 20px;
+    margin-left: auto;
+    margin: 10px 5px 0px 0px;
+}
+
+.sec10icons:hover {
+    color: rgb(255, 182, 6);
+    cursor: pointer;
+}
+
+@media(max-width:767px) {
+    .sec1text {
+        padding: 280px 0px 140px;
+    }
+}
+
+@media(max-width:576px) {
+    .sec1text {
+        padding: 200px 0px 140px;
+    }
+}
